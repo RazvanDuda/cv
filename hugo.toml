@@ -1,0 +1,120 @@
+baseURL = 'https://YOUR-USERNAME.github.io/NEW-CV/'
+languageCode = 'en-us'
+title = 'Razvan Duda - Senior Cyber Security Engineer'
+theme = 'PaperMod'
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  env = "production"
+  description = "Senior Cyber Security Engineer | Cloud Security Architect | DevSecOps Engineer with 15+ years of experience"
+  author = "Razvan Ionut Duda"
+  keywords = ["Cyber Security", "Cloud Security", "Azure", "DevSecOps", "Security Engineer", "Cloud Architect"]
+
+  # Visual Enhancements
+  defaultTheme = "auto"
+  ShowReadingTime = false
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = true
+
+  # Profile Mode - Disabled for now to use regular content layout
+  [params.profileMode]
+    enabled = false
+    title = "Razvan Duda"
+    subtitle = "Senior Cyber Security Engineer | Cloud Security Architect | DevSecOps Engineer"
+    imageUrl = "images/profile.jpg" # You can add your profile photo here
+    imageWidth = 180
+    imageHeight = 180
+    imageTitle = "Razvan Duda"
+    buttons = [
+      {name = "Resume", url = "/"},
+      {name = "Certifications", url = "#certifications"},
+      {name = "Projects", url = "#security-tool-development--automation"},
+      {name = "Contact", url = "#contact"}
+    ]
+
+  # Enhanced Home Info (fallback if profile mode disabled)
+  [params.homeInfoParams]
+    Title = "Razvan Duda"
+    Content = """
+**Senior Cyber Security Engineer | Cloud Security Architect | DevSecOps Engineer**
+
+15+ years of experience in enterprise security transformation, cloud architecture, and DevSecOps practices.
+
+Specializing in AI-powered security automation, zero-trust architectures, and cloud security solutions.
+    """
+
+  # Social Icons with more platforms
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/razvanduda"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/razvan-duda-10618a6b/"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:razvan.duda@gmail.com"
+
+  # Assets Configuration
+  [params.assets]
+    disableHLJS = false
+    disableFingerprinting = false
+    favicon = "favicon.ico"
+    favicon16x16 = "favicon-16x16.png"
+    favicon32x32 = "favicon-32x32.png"
+    apple_touch_icon = "apple-touch-icon.png"
+
+  # SEO and Analytics
+  [params.label]
+    text = "Razvan Duda"
+    icon = "favicon.ico"
+    iconHeight = 35
+
+  # Cover Image for sharing
+  [params.cover]
+    linkFullImages = true
+    responsiveImages = true
+
+# Enhanced Menu
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      hardWraps = false
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    tabWidth = 4
