@@ -3,13 +3,11 @@ title: "Razvan Duda"
 description: "Senior Cyber Security Engineer | Cloud Security Architect | DevSecOps Engineer"
 ---
 
-**Senior Cyber Security Engineer**
-
----
+<div style="text-align: center; font-weight: 800; font-size: 2rem;">Senior Cyber Security Engineer </div>
 
 ## PROFESSIONAL SUMMARY
 
-Senior Cyber Security Engineer with **15+ years** driving enterprise security transformation. Proven track record reducing security incidents by **40%** through AI-powered automation, developing **10 production-grade security tools**, and implementing zero-trust architectures across Azure environments. Expert in cloud security architecture, vulnerability research, and DevSecOps practices.
+ Senior Cyber Security Engineer with **15+ years** driving enterprise security transformation. Proven track record reducing security incidents by **40%** through AI-powered automation, developing **10 production-grade security tools**, and implementing zero-trust architectures across Azure environments. Expert in cloud security architecture, vulnerability research, and DevSecOps practices.
 
 **Core Competencies:** Cloud Security Architecture | DevSecOps | Security Tool Development | AI/ML Security | Incident Response | Zero Trust Implementation | Vulnerability Research | Privileged Access Management
 
