@@ -2,7 +2,9 @@
 title: "Razvan Duda"
 description: "Senior Cyber Security Engineer | Cloud Security Architect | DevSecOps Engineer"
 ---
+
 **Senior Cyber Security Engineer**
+
 ---
 
 ## PROFESSIONAL SUMMARY

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://razvanduda.github.io/cv/sitemap.xml
